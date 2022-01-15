@@ -2,8 +2,6 @@
 layout: post
 title: Blog 0
 ---
-
-
 ## Visualizing the Palmer Penguins dataset
 
 This post demonstrates basic data manipulation with `pandas` and visualizations with the `plotly` package.
