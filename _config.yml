@@ -6,10 +6,10 @@
 name: My Awesome PIC16B Adventure
 
 # Short bio or description (displayed in the header)
-description: Penguin Coder
+description: Li Zhijian
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/PIC16B/PIC16B.github.io/master/images/ucla-math.png
+avatar: https://raw.githubusercontent.com/zhijianli9999/zhijianli9999.github.io/master/images/photo.jpg
 
 #
 # Flags below are optional
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: PIC16B/pic16b.github.io # replace with your repo
+  github: zhijianli9999/zhijianli9999.github.io # replace with your repo
   instagram:
   linkedin:
   pinterest:
