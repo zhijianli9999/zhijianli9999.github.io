@@ -1,12 +1,3 @@
----
-layout: post
-title: Blog 1
----
-
-# 1. Create a database
-
-We would like to create a database, `temps.db`, containing 3 tables: `temperatures`, `stations`, and `countries`. 
-
 ```python
 import pandas as pd
 import seaborn as sns 
@@ -19,6 +10,9 @@ from sklearn.linear_model import LinearRegression
 from calendar import month_name
 ```
 
+# 1. Create a database
+
+We would like to create a database, `temps.db`, containing 3 tables: `temperatures`, `stations`, and `countries`. 
 
 
 
@@ -281,14 +275,12 @@ def temperature_coefficient_plot(country, year_begin, year_end, month, min_obs,
 fig=temperature_coefficient_plot("India", 1980, 2020, 1, 10)
 fig.show()
 ```
-{% include ind.html %}
 
 
 ```python
 fig = temperature_coefficient_plot("United Kingdom", 1980, 2020, 1, 10, zoom=3)
 fig.show()
 ```
-{% include uk.html %}
 
 # 4a
 
@@ -373,7 +365,6 @@ fig = seasonal_difference_plot('Russia', 2020,
 fig.show()
 
 ```
-{% include rus.html %}
 
 
 ```python
@@ -381,7 +372,6 @@ fig = seasonal_difference_plot('Australia', 1970)
 fig.show()
 
 ```
-{% include aus.html %}
 
 In the first plot, we can see how European Russia is relatively mild compared to the extreme temperature ranges experienced in Siberia. The second plot shows the contrast between coastal and inland Australia as ocean's heat capacity buffers the seasonal variations in temperature.
 
@@ -445,7 +435,6 @@ fig = plot_time_trends('HEATHROW')
 
 fig.show()
 ```
-{% include hea.html %}
 
 We can see that the peak monthly mean temperatures have gone up in London Heathrow in recent decades. With a slight modification, we can also combine the decades into the same graph, identifying each decade by its color. 
 
@@ -469,4 +458,3 @@ fig = plot_combined_decades('ST_PETERSBURG',
                             template='plotly_white')
 fig.show()
 ```
-{% include stp.html %}
