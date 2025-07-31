@@ -13,13 +13,13 @@ taxonomies:
 menu:
     main:
         - name: Research
-          url: research/
+          url: papers/
           weight: 2
-        - CV
+        - name: CV
           url: li_cv_101424.pdf
           weight: 2
 params:
-    description: "This website hosts Zhijian Li's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "Academic website for Zhijian Li."
     author: Zhijian Li
     DateFormat: "January 2006"
     defaultTheme: light
@@ -33,7 +33,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["research", "cv", "misc"]
+    MainSections: ["papers", "cv"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -44,23 +44,19 @@ params:
     profileMode:
           enabled: true
           title: Zhijian Li
-          subtitle: "Hi! I'm a PhD student in Quantitative Marketing at Northwestern University's Kellogg School of Management. My research interest lies mainly in empirical industrial organization. Before this, I was a research assistant at UCLA Anderson School of Management. I was born in China, raised in Singapore, and got my Bachelor's in Mathematics-Economics and Master's in Economics at UCLA. I go by my last name, Li."
-          imageUrl: "official photo kellogg.jpg"
-          imageWidth: 160
-          imageHeight: 160
+          subtitle: "Hi, I'm Li, a PhD student in Quantitative Marketing at Northwestern University's Kellogg School of Management. My research interests are mainly in industrial organization. Before this, I did my undergraduate studies at UCLA and was a predoctoral research associate at the Anderson School of Management. I was born in Tianjin, China and raised in Singapore."
+          imageUrl: "kellogg photo 2024 square.jpeg"
+          imageWidth: 130
+          imageHeight: 130
           buttons:
             - name: Research
-              url: research/
+              url: papers/
             - name: CV
               url: li_cv_101424.pdf
 
     socialIcons:
-        - name: CV
-          url: li_cv_101424.pdf
         - name: Email
           url: mailto:zhijian.li@kellogg.northwestern.edu
-        - name: Location
-          url: location/
         - name: GitHub
           url: https://github.com/zhijianli9999
         - name: Twitter
