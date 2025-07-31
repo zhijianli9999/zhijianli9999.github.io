@@ -16,7 +16,7 @@ menu:
           url: papers/
           weight: 2
         - name: CV
-          url: li_cv_101424.pdf
+          url: cv.pdf
           weight: 2
 params:
     description: "Academic website for Zhijian Li."
@@ -52,7 +52,7 @@ params:
             - name: Research
               url: papers/
             - name: CV
-              url: li_cv_101424.pdf
+              url: cv.pdf
 
     socialIcons:
         - name: Email
