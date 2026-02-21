@@ -1,13 +1,14 @@
 ---
 title: "Misinformation and Mistrust: The Equilibrium Effects of Fake Reviews on Amazon.com" 
 author: ["Ashvin Gandhi", "Brett Hollenbeck", "Zhijian Li"]
+summary: "How fake reviews distort consumer beliefs on online platforms, how firms respond, and how welfare is affected."
+editPost:
+  Text: "Revise and Resubmit at American Economic Review"
 
 ---
 
-##### Abstract
-
-This paper investigates the impact of the widespread manipulation of reputation systems by sellers on two-sided online platforms. We focus on a relevant empirical setting: the use of fake product reviews on e-commerce platforms, which can affect consumer welfare via two channels. First, rating manipulation deceives consumers directly, shifting demand towards lower quality products through misinformation. Second, the presence of manipulation lowers trust that ratings reflect true quality, causing consumers to miss out on high quality products. Both misinformation and mistrust can also benefit consumers by increasing competitive pressure on products unable to differentiate through ratings. We study these effects by first modeling how consumers use ratings to form beliefs about quality and estimating consumers' relevant priors about the prevalence of fake reviews using an incentivized survey experiment. We incorporate this beliefs model into a structural model of the Amazon marketplace that we estimate using a large and novel dataset centering on products observed buying fake reviews. We then use counterfactual policy simulations to evaluate how fake reviews impact the marketplace through misinformation and mistrust and explore the implications for platforms and regulators.
+Fake product reviews—and the manipulation of reputation systems by sellers more broadly—are a widespread issue for two-sided platforms. We study two primary channels through which such manipulation can affect market outcomes: (i) creating misinformation about the reviewed product, and (ii) breeding mistrust in ratings system overall. To examine these in the Amazon.com marketplace, we measure misinformation by observing products purchasing fake reviews and measure mistrust by eliciting shoppers’ beliefs about the prevalence of fake reviews on Amazon through an incentivized survey experiment. We incorporate these into a structural model of demand in which consumers form beliefs about product quality based on observed reviews and perceptions about their trustworthiness. Counterfactual policy simulations indicate that fake reviews reduce consumer welfare, shift sales from honest to dishonest sellers, and ultimately harm the platform. Welfare losses arise primarily from misinformation that leads to worse purchases. While mistrust also leads to purchasing mistakes, the consumer harms of mistrust are largely offset by increased price competition under a weakened ratings system. Finally, we identify key limitations in platforms’ incentives to police manipulation and evaluate enforcement alternatives.
 
 ---
 
-[Link to Paper](https://ucla.app.box.com/v/GHFakeReviews)
+[Link to Paper](https://www.nber.org/papers/w34161)
